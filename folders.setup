@@ -1,0 +1,122 @@
+[
+  {
+    "hubtype": "business",
+    "name": "B",
+    "owner": "a360betatestx@mailinator.com",
+    "username": "admin",
+    "projects": [
+      {
+        "projectname": "SECRET_BUSINESS",
+        "projecttype": "SECRET",
+        "owner": "a360betatestx@mailinator.com",
+        "username": "admin",
+        "members": [
+          {
+            "email": "a360betatestguest@mailinator.com",
+            "projectrole": "EDITOR",
+            "hubrole": "GUEST",
+            "username": "guest"
+          },
+          {
+            "email": "a360betatestmember@mailinator.com",
+            "projectrole": "EDITOR",
+            "hubrole": "USER",
+            "username": "member"
+          },
+          {
+            "email": "a360betatestguestviewer1@mailinator.com",
+            "username": "guestviewer1",
+            "projectrole": "VIEWER",
+            "hubrole": "GUEST"
+          },
+          {
+            "email": "a360betatestmemberviewer1@mailinator.com",
+            "projectrole": "VIEWER",
+            "username": "memberviewer1",
+            "hubrole": "USER"
+          }
+        ]
+      },
+      {
+        "projectname": "CLOSED_BUSINESS",
+        "projecttype": "CLOSED",
+        "owner": "a360betatestx@mailinator.com",
+        "username": "admin",
+        "members": [
+          {
+            "email": "a360betatestguest@mailinator.com",
+            "username": "guest",
+            "projectrole": "EDITOR",
+            "hubrole": "GUEST"
+          },
+          {
+            "email": "a360betatestmember@mailinator.com",
+            "projectrole": "EDITOR",
+            "username": "member",
+            "hubrole": "USER"
+          },
+          {
+            "email": "a360betatestguestviewer1@mailinator.com",
+            "username": "guestviewer1",
+            "projectrole": "VIEWER",
+            "hubrole": "GUEST"
+          },
+          {
+            "email": "a360betatestmemberviewer1@mailinator.com",
+            "projectrole": "VIEWER",
+            "username": "memberviewer1",
+            "hubrole": "USER"
+          }
+        ]
+      },
+      {
+        "projectname": "OPEN_BUSINESS",
+        "projecttype": "OPEN",
+        "owner": "a360betatestx@mailinator.com",
+        "username": "admin",
+        "members": [
+          {
+            "email": "a360betatestmember@mailinator.com",
+            "username": "member",
+            "projectrole": "EDITOR",
+            "hubrole": "USER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hubtype": "personal",
+    "owner": "a360betatestx@mailinator.com",
+    "username": "admin",
+    "name": "P",
+    "projects": [
+      {
+        "projectname": "SECRET_PERSONAL",
+        "projecttype": "SECRET",
+        "owner": "a360betatestx@mailinator.com",
+        "username": "admin",
+        "members": [
+          {
+            "email": "a360betatestguest@mailinator.com",
+            "username": "guest",
+            "projectrole": "EDITOR",
+            "hubrole": "GUEST"
+          },
+          {
+            "email": "a360betatestguestviewer1@mailinator.com",
+            "username": "guestviewer1",
+            "projectrole": "VIEWER",
+            "hubrole": "GUEST"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hubtype": "drive",
+    "owner": "a360betatestx@mailinator.com",
+    "username": "admin",
+    "name": "D"
+  }
+]

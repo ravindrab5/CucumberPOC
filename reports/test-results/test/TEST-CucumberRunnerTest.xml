@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CucumberRunnerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-03T04:44:55" hostname="8e60b3e97646" time="2.743">
+  <properties/>
+  <testcase name="Check the login functionality" classname="CucumberRunnerTest" time="2.681"/>
+  <testcase name="Check the login functionality with invalid username or password" classname="CucumberRunnerTest" time="0.025"/>
+  <testcase name="Check the login functionality" classname="CucumberRunnerTest" time="0.019"/>
+  <testcase name="Check the login functionality with invalid username or password" classname="CucumberRunnerTest" time="0.015"/>
+  <system-out><![CDATA[Inside before all 
+
+@LoginFunctionality
+Scenario: Check the login functionality       ?[90m# src/test/resources/SampleFeature.feature:9?[0m
+Running before [@LoginFunctionality]
+- ----------- Inside - inside background given
+  ?[32mGiven ?[0m?[32minside background given?[0m               ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundGiven()?[0m
+- ----------- Inside - inside background when
+  ?[32mWhen ?[0m?[32minside background when?[0m                 ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundWhen()?[0m
+Inside - a user navigates to login page com.autodesk.cucumberautomation.config.TestContext@1729ec00
+  ?[32mGiven ?[0m?[32ma user navigates to login page?[0m        ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.userNavigatesToLoginPage()?[0m
+Inside - he enters valid username
+  ?[32mWhen ?[0m?[32mhe enters valid username?[0m               ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heEntersValidUsername()?[0m
+Inside - valid password
+  ?[32mAnd ?[0m?[32mvalid password?[0m                          ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.validPassword()?[0m
+Inside - he successfully logs in to the system.
+  ?[32mThen ?[0m?[32mhe successfully logs in to the system.?[0m ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heSuccessfullyLogsInToTheSystem()?[0m
+Running after
+
+@LoginFunctionality
+Scenario: Check the login functionality with invalid username or password ?[90m# src/test/resources/SampleFeature.feature:15?[0m
+Running before [@LoginFunctionality]
+- ----------- Inside - inside background given
+  ?[32mGiven ?[0m?[32minside background given?[0m                                           ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundGiven()?[0m
+- ----------- Inside - inside background when
+  ?[32mWhen ?[0m?[32minside background when?[0m                                             ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundWhen()?[0m
+Inside - a user navigates to login page com.autodesk.cucumberautomation.config.TestContext@25d2f66
+  ?[32mGiven ?[0m?[32ma user navigates to login page?[0m                                    ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.userNavigatesToLoginPage()?[0m
+Inside - he enters valid username
+  ?[32mWhen ?[0m?[32mhe enters valid username?[0m                                           ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heEntersValidUsername()?[0m
+Inside - invalid password
+  ?[32mAnd ?[0m?[32minvalid password?[0m                                                    ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.invalidPassword()?[0m
+Inside - an error message should be displayed.
+  ?[32mThen ?[0m?[32man error message should be displayed.?[0m                              ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.anErrorMessageShouldBeDisplayed()?[0m
+Running after
+
+@LoginFunctionality2 @Smoke1
+Scenario: Check the login functionality       ?[90m# src/test/resources/SampleFeature2.feature:11?[0m
+Running before [@LoginFunctionality2, @Smoke1]
+- ----------- Inside - inside background given
+  ?[32mGiven ?[0m?[32minside background given?[0m               ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundGiven()?[0m
+- ----------- Inside - inside background when
+  ?[32mWhen ?[0m?[32minside background when?[0m                 ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundWhen()?[0m
+Inside - a user navigates to login page com.autodesk.cucumberautomation.config.TestContext@17690e14
+  ?[32mGiven ?[0m?[32ma user navigates to login page?[0m        ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.userNavigatesToLoginPage()?[0m
+Inside - he enters valid username
+  ?[32mWhen ?[0m?[32mhe enters valid username?[0m               ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heEntersValidUsername()?[0m
+Inside - valid password
+  ?[32mAnd ?[0m?[32mvalid password?[0m                          ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.validPassword()?[0m
+Inside - he successfully logs in to the system.
+  ?[32mThen ?[0m?[32mhe successfully logs in to the system.?[0m ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heSuccessfullyLogsInToTheSystem()?[0m
+Running after
+
+@LoginFunctionality2 @Smoke2
+Scenario: Check the login functionality with invalid username or password ?[90m# src/test/resources/SampleFeature2.feature:18?[0m
+Running before [@LoginFunctionality2, @Smoke2]
+- ----------- Inside - inside background given
+  ?[32mGiven ?[0m?[32minside background given?[0m                                           ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundGiven()?[0m
+- ----------- Inside - inside background when
+  ?[32mWhen ?[0m?[32minside background when?[0m                                             ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundWhen()?[0m
+Inside - a user navigates to login page com.autodesk.cucumberautomation.config.TestContext@4207609e
+  ?[32mGiven ?[0m?[32ma user navigates to login page?[0m                                    ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.userNavigatesToLoginPage()?[0m
+Inside - he enters valid username
+  ?[32mWhen ?[0m?[32mhe enters valid username?[0m                                           ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heEntersValidUsername()?[0m
+Inside - invalid password
+  ?[32mAnd ?[0m?[32minvalid password?[0m                                                    ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.invalidPassword()?[0m
+Inside - an error message should be displayed.
+  ?[32mThen ?[0m?[32man error message should be displayed.?[0m                              ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.anErrorMessageShouldBeDisplayed()?[0m
+Running after
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://reports.cucumber.io/docs/cucumber-jvm?[0m                 ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
+]]></system-err>
+</testsuite>

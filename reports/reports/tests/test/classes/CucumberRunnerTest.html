@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class CucumberRunnerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class CucumberRunnerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; CucumberRunnerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.740s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Check the login functionality</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check the login functionality</td>
+<td class="success">2.681s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check the login functionality with invalid username or password</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check the login functionality with invalid username or password</td>
+<td class="success">0.025s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Inside before all 
+
+@LoginFunctionality
+Scenario: Check the login functionality       ?[90m# src/test/resources/SampleFeature.feature:9?[0m
+Running before [@LoginFunctionality]
+- ----------- Inside - inside background given
+  ?[32mGiven ?[0m?[32minside background given?[0m               ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundGiven()?[0m
+- ----------- Inside - inside background when
+  ?[32mWhen ?[0m?[32minside background when?[0m                 ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundWhen()?[0m
+Inside - a user navigates to login page com.autodesk.cucumberautomation.config.TestContext@1729ec00
+  ?[32mGiven ?[0m?[32ma user navigates to login page?[0m        ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.userNavigatesToLoginPage()?[0m
+Inside - he enters valid username
+  ?[32mWhen ?[0m?[32mhe enters valid username?[0m               ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heEntersValidUsername()?[0m
+Inside - valid password
+  ?[32mAnd ?[0m?[32mvalid password?[0m                          ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.validPassword()?[0m
+Inside - he successfully logs in to the system.
+  ?[32mThen ?[0m?[32mhe successfully logs in to the system.?[0m ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heSuccessfullyLogsInToTheSystem()?[0m
+Running after
+
+@LoginFunctionality
+Scenario: Check the login functionality with invalid username or password ?[90m# src/test/resources/SampleFeature.feature:15?[0m
+Running before [@LoginFunctionality]
+- ----------- Inside - inside background given
+  ?[32mGiven ?[0m?[32minside background given?[0m                                           ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundGiven()?[0m
+- ----------- Inside - inside background when
+  ?[32mWhen ?[0m?[32minside background when?[0m                                             ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundWhen()?[0m
+Inside - a user navigates to login page com.autodesk.cucumberautomation.config.TestContext@25d2f66
+  ?[32mGiven ?[0m?[32ma user navigates to login page?[0m                                    ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.userNavigatesToLoginPage()?[0m
+Inside - he enters valid username
+  ?[32mWhen ?[0m?[32mhe enters valid username?[0m                                           ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heEntersValidUsername()?[0m
+Inside - invalid password
+  ?[32mAnd ?[0m?[32minvalid password?[0m                                                    ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.invalidPassword()?[0m
+Inside - an error message should be displayed.
+  ?[32mThen ?[0m?[32man error message should be displayed.?[0m                              ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.anErrorMessageShouldBeDisplayed()?[0m
+Running after
+
+@LoginFunctionality2 @Smoke1
+Scenario: Check the login functionality       ?[90m# src/test/resources/SampleFeature2.feature:11?[0m
+Running before [@LoginFunctionality2, @Smoke1]
+- ----------- Inside - inside background given
+  ?[32mGiven ?[0m?[32minside background given?[0m               ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundGiven()?[0m
+- ----------- Inside - inside background when
+  ?[32mWhen ?[0m?[32minside background when?[0m                 ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundWhen()?[0m
+Inside - a user navigates to login page com.autodesk.cucumberautomation.config.TestContext@17690e14
+  ?[32mGiven ?[0m?[32ma user navigates to login page?[0m        ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.userNavigatesToLoginPage()?[0m
+Inside - he enters valid username
+  ?[32mWhen ?[0m?[32mhe enters valid username?[0m               ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heEntersValidUsername()?[0m
+Inside - valid password
+  ?[32mAnd ?[0m?[32mvalid password?[0m                          ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.validPassword()?[0m
+Inside - he successfully logs in to the system.
+  ?[32mThen ?[0m?[32mhe successfully logs in to the system.?[0m ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heSuccessfullyLogsInToTheSystem()?[0m
+Running after
+
+@LoginFunctionality2 @Smoke2
+Scenario: Check the login functionality with invalid username or password ?[90m# src/test/resources/SampleFeature2.feature:18?[0m
+Running before [@LoginFunctionality2, @Smoke2]
+- ----------- Inside - inside background given
+  ?[32mGiven ?[0m?[32minside background given?[0m                                           ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundGiven()?[0m
+- ----------- Inside - inside background when
+  ?[32mWhen ?[0m?[32minside background when?[0m                                             ?[90m# com.autodesk.cucumberautomation.steps.OtherSteps.insideBackgroundWhen()?[0m
+Inside - a user navigates to login page com.autodesk.cucumberautomation.config.TestContext@4207609e
+  ?[32mGiven ?[0m?[32ma user navigates to login page?[0m                                    ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.userNavigatesToLoginPage()?[0m
+Inside - he enters valid username
+  ?[32mWhen ?[0m?[32mhe enters valid username?[0m                                           ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.heEntersValidUsername()?[0m
+Inside - invalid password
+  ?[32mAnd ?[0m?[32minvalid password?[0m                                                    ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.invalidPassword()?[0m
+Inside - an error message should be displayed.
+  ?[32mThen ?[0m?[32man error message should be displayed.?[0m                              ?[90m# com.autodesk.cucumberautomation.steps.LoginStepDefs.anErrorMessageShouldBeDisplayed()?[0m
+Running after
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://reports.cucumber.io/docs/cucumber-jvm?[0m                 ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4.2</a> at Jul 3, 2022, 4:44:58 AM</p>
+</div>
+</div>
+</body>
+</html>
